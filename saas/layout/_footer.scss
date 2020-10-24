@@ -1,0 +1,177 @@
+.footer-tel-link,
+.footer-email-link,
+.footer-adress-link {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: #2F303A;
+}
+
+.footer .container {
+  display: flex;
+  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-list:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-adress-link {
+  color: white;
+}
+
+.footer-email-link,
+.footer-tel-link {
+  color:rgba(255, 255, 255, 0.6);
+}
+
+.contact-footer {
+  margin-top: 20px;
+}
+
+.container .logo-web {
+  font-family: $logo-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $animation-theme-color;
+}
+
+.container .logo-studio {
+  font-family: $logo-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.join-footer {
+  margin-left: 70px;
+  width: 206px;
+  height: 80px;
+}
+
+.join-footer-title {
+font-family: $main-font;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+.footer-social {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-social-link {
+  fill: white;
+}
+
+.mailing {
+  margin: 0px 93px 94px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 86px;
+  width: 570px;
+}
+
+.mailing-title {
+font-family: $main-font;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+
+.mailing-title {
+  display: flex;
+  justify-content: space-between;
+  width: 570px;
+}
+
+.contact-form__input:placeholder-shown {
+padding-left: 16px;
+font-family: $main-font;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.mailing-button,
+.mailing-button:hover,
+.mailing-button:focus {
+width: 200px;
+height: 50px;
+
+background: $animation-theme-color;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-color: $animation-theme-color;
+border-style: none;
+border-radius: 4px;
+
+font-family: $main-font;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.contact-form__input {
+width: 358px;
+height: 50px;
+padding-left: 16px;
+
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+font-family: $main-font;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+outline: none;
+
+background-color: #2F303A;;
+}
+
+.contact-form__input:hover,
+.contact-form__input:focus {
+font-family: $main-font;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+color: white;
+outline: none;
+}
+
+.mailing-svg {
+  width: 24px;
+  height: 24px;
+  fill: #FFFFFF;
+  margin-left: 10px;
+}
