@@ -51,12 +51,12 @@
     color: $title-theme-color;
     transition: all 250ms $animation-change-item;
   }
+}
 
-  & .current {
-    color: $animation-theme-color;
-    display: block;
-    position: relative;
-  }
+.nav-list .current {
+  color: $animation-theme-color;
+  display: block;
+  position: relative;
 }
 
 .adress-list:not(:last-child) {

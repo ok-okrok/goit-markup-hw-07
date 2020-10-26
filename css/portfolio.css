@@ -213,13 +213,6 @@ button {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer .container {
-  display: flex;
-  height: 252px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .footer-tel-link, .footer-email-link, .footer-adress-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -227,6 +220,13 @@ button {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.footer .container {
+  display: flex;
+  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .contact-footer {
@@ -449,7 +449,7 @@ button {
   font-size: 18px;
   line-height: 1.56;
   color: #ffffff;
-  letter-spacing: 3%;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-list-button-item {

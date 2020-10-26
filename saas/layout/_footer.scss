@@ -14,13 +14,6 @@
     color: rgba(255, 255, 255, 0.6);
   }
 
-  & .container {
-    display: flex;
-    height: 252px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
   &-tel-link,
   &-email-link,
   &-adress-link {
@@ -31,6 +24,13 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
   }
+}
+
+.footer .container {
+  display: flex;
+  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .contact-footer {
